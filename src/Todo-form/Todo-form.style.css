@@ -1,0 +1,23 @@
+.todo-form {
+    display: flex;
+    width: 100%;
+    margin: 10px;
+};
+
+input[type="text" i]{}
+
+.input-text { 
+    width: 90%;
+    margin: 5px;
+    border-radius: 5px;
+};
+
+input[type="button" i]{
+    padding: 0;
+}
+
+.input-button {
+    margin: 5px;
+    width: 10%;
+    border-radius: 5px;
+};
