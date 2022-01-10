@@ -12,12 +12,16 @@ const TodoForm = ({ addTask }) => {
 
   return (
     <form className="todo-form" onSubmit={submitTask}>
-      <input
-        type="text"
-        value={userInput}
-        className="input-text"
-        onChange={(e) => (setUserInput(e.currentTarget.value))}
-      />
+      <label htmlFor="taskField" className='form-label'>New task:</label>
+        <input
+          type="text"
+          id="taskField"
+          value={userInput}
+          placeholder="Type your task here..."
+          className="input-text"
+          onChange={(e) => setUserInput(e.currentTarget.value)}
+        />
+     
       <input type="submit" value="Add" className="input-button" />
     </form>
   );

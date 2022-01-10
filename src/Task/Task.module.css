@@ -1,0 +1,27 @@
+
+.taskDescription {
+    max-width: 80%;
+}
+
+.deleteTask {
+    width: 20%;
+    display: flex;
+    float: right;
+    justify-content: end;
+}
+
+.deleteTask button {
+   background-color: inherit; 
+   border-style:none;
+}
+
+.deleteTask button:hover {
+    color: orangered;
+ }
+
+
+.task {
+    margin: 5px 5px 5px 0;
+    display: flex;
+    justify-content: space-between;
+}
