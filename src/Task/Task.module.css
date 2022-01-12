@@ -1,10 +1,11 @@
 
 .taskDescription {
-    max-width: 80%;
+    max-width: 90%;
+    width: 90%;
 }
 
 .deleteTask {
-    width: 20%;
+    width: 10%;
     display: flex;
     float: right;
     justify-content: end;
@@ -16,12 +17,21 @@
 }
 
 .deleteTask button:hover {
-    color: orangered;
+    color: rgb(236, 29, 22);
  }
 
 
 .task {
     margin: 5px 5px 5px 0;
+    padding: 10px;
     display: flex;
     justify-content: space-between;
+    border: 1px;
+    border-style: double;
+    border-radius: 5px;
+}
+
+.task:hover {
+    cursor: pointer;
+    background-color:burlywood;
 }
