@@ -33,7 +33,7 @@ const App = () => {
   };
 
   // =====HEADER=====
-  const [activeElement, setActiveElement] = useState(0);
+  const [activeElement, setActiveElement] = useState(1);
   
   const handleClick = (id) => {
       setActiveElement(id);
